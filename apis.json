@@ -1,0 +1,48 @@
+{
+    "name": "OpenVZ",
+    "description": "OpenVZ is a container-based virtualization for Linux. OpenVZ creates multiple secure, isolated Linux containers (otherwise known as VEs or VPSs) on a single physical server enabling better server utilization and ensuring that applications do not confli...",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/11307-openvz-containers.jpg",
+    "tags": [
+        "containers",
+        "have api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/openvz\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "OpenVZ",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/11307-openvz-containers.jpg",
+            "humanURL": "http:\/\/openvz.org\/Main_Page",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/openvz-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/openvz-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/product\/openvz-vps"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/_openvz_"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/openvz.org\/Main_Page"
+        }
+    ]
+}
